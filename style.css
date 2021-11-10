@@ -1,0 +1,50 @@
+.sek {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+}
+
+.top {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  background: linear-gradient(
+    to top,
+    rgba(185, 185, 185, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.text {
+  font-size: 45px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 20px;
+  margin-left: 50px;
+  font-family: "Mohave", sans-serif;
+}
+
+.text2 {
+  font-size: 30px;
+  color: rgb(233, 4, 4);
+  position: absolute;
+  bottom: 170px;
+  margin-left: 50px;
+  font-family: "Dongle", sans-serif;
+  margin-bottom: 6px;
+}
+
+.text3 {
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 173px;
+  margin-left: 120px;
+  font-family: "Red Hat Mono", monospace;
+}
